@@ -3,7 +3,8 @@ import NavBar from '../components/NavBar/NavBar';
 import Titulo from '../components/Titulo/Titulo';
 import ItemListContainer from '../components/ItemListContainer/ItemListContainer';
 import ItemList from '../components/ItemList/ItemList';
-import productos from '../components/Item/Item'
+import productos from '../components/Item/Item';
+import ItemDetailContainer from '../components/ItemDetailContainer/ItemDetailContainer';
 
 function RoutesApp() {
 
@@ -24,6 +25,8 @@ function RoutesApp() {
           {/*tmb se puede poner como Titulo()*/}
 
       <ItemList/>
+
+      <ItemDetailContainer/>
     </>
   )
 
