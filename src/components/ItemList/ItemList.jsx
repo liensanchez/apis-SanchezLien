@@ -1,6 +1,7 @@
 import productos from '../Item/Item';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react'
+import ItemDetailContainer from '../ItemDetailContainer/ItemDetailContainer';
 
 
 
@@ -23,6 +24,8 @@ function ItemList() {
           <img src={producto.img} alt="" className='w-50'/>
 
         </div>
+
+        <ItemDetailContainer/>
 
       </div>
 

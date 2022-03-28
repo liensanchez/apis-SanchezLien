@@ -4,7 +4,7 @@ import Titulo from '../components/Titulo/Titulo';
 import ItemListContainer from '../components/ItemListContainer/ItemListContainer';
 import ItemList from '../components/ItemList/ItemList';
 import productos from '../components/Item/Item';
-import ItemDetailContainer from '../components/ItemDetailContainer/ItemDetailContainer';
+
 
 function RoutesApp() {
 
@@ -26,7 +26,7 @@ function RoutesApp() {
 
       <ItemList/>
 
-      <ItemDetailContainer/>
+      
     </>
   )
 

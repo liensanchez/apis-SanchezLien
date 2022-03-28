@@ -4,7 +4,12 @@ import React from 'react'
 function ItemDetailContainer() {
   return (
     <>
-    <h1>detalle</h1>
+    { detalle.map ((data) => <div key={data.id} >
+        <div className='btn-primary'>
+          {`${data.precio}`}
+        </div>
+  
+    </div> )}
     </>
   )
 }
